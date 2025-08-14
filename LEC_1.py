@@ -52,3 +52,19 @@ print(string7.startswith('be'))
 string6 = string6.lower()
 print(string6.startswith('be'))
 print(string7.startswith('be'))
+
+
+#user input
+prompt = "Hi what's your facebook account?"
+user_input = input(prompt)
+print("You said:", user_input)
+
+prompt1 = "What's Your full Name?"
+user_input1 = input(prompt1)
+user_input1 = user_input1.lower()
+print(user_input1)
+
+prompt2 = "Where do yu live?"
+user_input2 = input(prompt2)
+#user_input2 = user_input2.len()
+print(len(user_input2))
