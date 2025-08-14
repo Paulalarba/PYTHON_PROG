@@ -68,3 +68,32 @@ prompt2 = "Where do yu live?"
 user_input2 = input(prompt2)
 #user_input2 = user_input2.len()
 print(len(user_input2))
+
+
+#STRING ARITHMETIC
+num1 = '12'
+num1 = int(num1)
+num2 = 12
+result = num1 * num2
+print(result)
+
+num3 = '12'
+num3 = float(num3)
+
+result2 = num2 * num3
+print(result2)
+
+name = 'Paul'
+age = 20
+
+Str = name + str(age)
+print(Str)
+
+first_num = "INPUT THE FIRST NUM: "
+user_input1 = int(input(first_num))
+second_num = "INPUT THE SECOND NUM: "
+user_input2 = int(input(second_num))
+
+
+prod = user_input1 * user_input2
+print(prod)
