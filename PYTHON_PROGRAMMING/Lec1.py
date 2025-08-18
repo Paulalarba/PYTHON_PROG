@@ -98,5 +98,15 @@ user_input2 = int(input(second_num))
 prod = user_input1 * user_input2
 print(prod)
 
+sentence = "Somebody said something to Samantha.".lower()
+text = sentence.replace("s", "y")
+print(text)
 
+text = "AAA"
+text = text.find('a')
+print(text)
+
+text = "ENTER YOUR NAME"
+user_input = input(text).find("a")
+print(user_input)
 
