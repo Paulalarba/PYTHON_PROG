@@ -97,3 +97,6 @@ user_input2 = int(input(second_num))
 
 prod = user_input1 * user_input2
 print(prod)
+
+
+
