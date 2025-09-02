@@ -47,3 +47,14 @@ try:
 except:
     istr = -1
 print('Done', istr)
+
+# real world example
+age = input('Enter your age')
+try:
+    p_age = int(age)
+except:
+    p_age = -1
+if p_age > 1:
+    print('nice work')
+else:
+    print('wrong answer')
