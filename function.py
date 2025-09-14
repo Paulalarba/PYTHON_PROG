@@ -34,3 +34,17 @@ def name_age(age):
     print(age + 2)
 
 name_age(age)
+
+# default argument
+
+def name_greet(name = "Paul", greeting = "hello"): #this function is valid
+    print(name + " " + greeting)
+name_greet()
+
+def name_greet1(name, greeting = "hi"): # this is valid
+    print(name + " " + greeting)
+
+name_greet1("Paul")
+
+# def name_greet2(name = "Paul", greetings): #this is not valid
+#     print(name + " " + greeting)
